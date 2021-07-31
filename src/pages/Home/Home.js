@@ -10,9 +10,10 @@ import categories from "../../data/homeTitle";
 const Home = () => {
     return (
         <Container>
-            <div className="container py-4">
-                <div className="col-md-12">
-                    <div className="height bg-dark">
+             <header className="mainshadov3 mb-3">
+             <div className="container py-4">
+                <div className="col-md-12 col-sm-12">
+                    <div className="height">
                         <h1 className="text-center">Главные категории</h1>
                         {categories.map(v =>
                             <Link to={v.to} key={v.to} className="category">
@@ -25,6 +26,8 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+             </header>
+
         </Container>
 
 

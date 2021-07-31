@@ -1,0 +1,21 @@
+.mainshadov10{
+  width: 100%;
+  height: 130px;
+  background: #002f34;
+}
+h4{
+  color: white;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+.mainbutton1{
+  border: none;
+  border-radius: 5px;
+  width: 150px;
+  height: 40px;
+  margin-top: 45px;
+  margin-left: 80px;
+}
+.mainimg2{
+  margin-left: 250px;
+}

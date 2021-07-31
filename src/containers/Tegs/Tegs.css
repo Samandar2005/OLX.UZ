@@ -1,3 +1,19 @@
-.container{
+/* .container{
   top:-200px;
+} */
+.mainshadov9{
+  background: #f2f4f5;
+}
+.good2{
+  border: 3px solid black;
+  border-radius: 5px;
+  width: 200px;
+  height: 50px;
+  margin-left: 550px;
+  margin-bottom: 80px;
+  margin-top: 30px;
+}
+.good2:hover{
+  transition: 0.3s;
+  border: 5px solid black;
 }
