@@ -1,14 +1,13 @@
 import "./Tegs.css"
 import React from 'react'
-import { Link } from "react-router-dom"
-import datas from "../../data/homeImg";
+import { Link } from "react-router-dom";
+import data from "../../pages/Home/homeImg";
 const Tegs = () => {
     return (
-        <header className="mainshadov9 ">
-            <div className="container">
+            <div className="container mainshadov9">
                 <h1 className="text-center">Премиум объявления</h1>
                 <div className="row">
-                    {datas.map(v =>
+                    {data.map(v =>
                         <div className="col-sm-6 col-md-3">
                             <div className="product shadow rounded overflow-hidden p-2 mt-5">
                                 <img src={v.icon} className="w-100 mb-4" alt="" />
@@ -32,7 +31,6 @@ const Tegs = () => {
                                 </button>
                             </div>
             </div>
-        </header>
 
     )
 }

@@ -1,9 +1,10 @@
 .category {
   display: inline-block;
-  margin: 10px;
+  margin: -4px;
   text-align: center;
-  margin-left: 45px;
+  margin-left: 35px;
   margin-top: 20px;
+  color: black;
 }
 .category .icon {
   width: 100px;

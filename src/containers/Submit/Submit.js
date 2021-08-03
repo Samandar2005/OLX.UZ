@@ -2,8 +2,7 @@ import "./Submit.css"
 import React from 'react'
 const Submit = () => {
     return (
-      <header className="mainshadov2 mb-3">
-        <div className="container">
+        <div className="mainshadov2 container">
         <div className="row">
           <div className="col-md-12 col-sm-6">
                 <div class="teg g-3">
@@ -41,7 +40,6 @@ const Submit = () => {
 
 
         </div>
-      </header>
 
     )
 }

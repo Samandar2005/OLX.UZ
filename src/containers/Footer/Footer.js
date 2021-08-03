@@ -23,8 +23,7 @@ let menu2 = [
 
 const Footer = () => {
     return (
-        <footer className="drtrte">
-            <div className="container py-4">
+            <div className="drtrte container py-4">
                 <div class="row">
                     <div className="col-md-12 sder">
                     </div>
@@ -45,7 +44,6 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-        </footer>
     )
 }
 

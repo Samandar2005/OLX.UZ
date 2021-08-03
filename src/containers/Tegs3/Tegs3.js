@@ -2,8 +2,7 @@ import "./Tegs3.css"
 import React from 'react'
 const Tegs2 = () => {
     return (
-        <header className="mainshadov11 ">
-            <div className="container d-block">
+            <div className=" mainshadov11 container d-block">
               <img className="mainimg3" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Logotyp_OLX_.png/1600px-Logotyp_OLX_.png"></img>
               <div className="h6lar">
               <h6 className="mainh6">
@@ -33,7 +32,6 @@ const Tegs2 = () => {
               </div>
 
             </div>
-        </header>
 
     )
 }

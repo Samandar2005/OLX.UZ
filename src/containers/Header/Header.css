@@ -3,3 +3,19 @@
   background: #002f34;
   width: 100%;
 }
+.img111 img{
+  width: 130px;
+  height: 130px;
+  margin-top: -50px;
+}
+.main{
+  color: white;
+  margin-left: 600px;
+  margin-top: 6px;
+
+}
+.main a{
+  margin-left: 10px;
+  text-decoration: none;
+  list-style-type: none;
+}

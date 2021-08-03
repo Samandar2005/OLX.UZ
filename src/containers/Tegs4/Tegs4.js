@@ -2,8 +2,7 @@ import "./Tegs4.css"
 import React from 'react'
 const Tegs2 = () => {
     return (
-        <header className="mainshadov12">
-            <div className="container d-block">
+            <div className="mainshadov12 container d-block">
               <div className="ajoyib">
                 <img className="ajoyib3" src="https://static.olx.uz/static/olxuz/packed/font/2fc1ef4e9c6a6dc640b6feb727836fabc7.svg"></img>
                 <h6 className="ajoyib2">
@@ -11,7 +10,6 @@ const Tegs2 = () => {
                   </h6>
               </div>
             </div>
-        </header>
 
     )
 }

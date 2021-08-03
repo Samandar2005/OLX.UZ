@@ -4,11 +4,15 @@ import Container from "../../containers/Container";
 
 const About = () => {
     return (
-        <Container>
+
             <div className="container">
+                <Container>
+                <div className="col-md-12">
                 <h1>Мобильные приложения</h1>
+                </div>
+                </Container>
             </div>
-        </Container>
+
     )
 }
 

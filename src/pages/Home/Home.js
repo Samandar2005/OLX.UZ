@@ -2,12 +2,13 @@ import "./Home.css"
 import React from 'react'
 import Container from "../../containers/Container";
 import { Link } from "react-router-dom";
-import datas from "../../data/homeImg";
+import datas from "./homeImg";
 import categories from "../../data/homeTitle";
-
+import Submit from "../../containers/Submit"
 
 
 const Home = () => {
+    <Submit />
     return (
         <Container>
              <header className="mainshadov3 mb-3">
