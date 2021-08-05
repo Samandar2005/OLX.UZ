@@ -26,15 +26,61 @@ const Footer = () => {
             <div className="drtrte container py-4">
                 <div class="row">
                     <div className="col-md-12 sder">
+
                     </div>
-                    <div className=" col-md-4 col-sm-4"><div>
-                        {menu.map(value =>
-                            <Link to={value.to} key={value.to}>{value.title}</Link>)}
-                    </div></div>
-                    <div className="col-md-4 col-sm-4"> <div>
-                    {menu2.map(value =>
-                            <Link to={value.to} key={value.to}>{value.title}</Link>)}
-                        </div>
+                    <div className="d-block col-md-4 fw-bold col-sm-4">
+                        <ul>
+                            <li>
+                                <a className="maina" href="/mobileapps">Мобильные приложения</a>
+                            </li>
+                            <li>
+                                <a className="maina" href="/mobileapps">Помощь</a>
+                            </li>
+                            <li>
+                                <a className="maina" href="/mobileapps">Платные услуги</a>
+                            </li>
+                            <li>
+                                 <a className="maina" href="/mobileapps">Бизнес на OLX</a>
+                            </li>
+                            <li>
+                                <a className="maina" href="/mobileapps">Реклама на сайте</a>
+                            </li>
+                            <li>
+                                <a className="maina" href="/mobileapps">Условия использования</a>
+                            </li>
+                            <li>
+                            <a className="maina" href="/mobileapps">Политика конфиденциальности</a>
+                            </li>
+                            <li>
+                            <a className="maina" href="/mobileapps">Партнёры</a>
+                            </li>
+                        </ul>
+                    {/* {menu.map(value =>
+                            <Link to={value.to} key={value.to}>{value.title}</Link>)} */}
+                   </div>
+                    <div className="mainster2 fw-bold col-md-4 col-sm-4">
+                    {/* {menu2.map(value =>
+                            <Link to={value.to} key={value.to}>{value.title}</Link>)} */}
+                             <ul>
+                            <li>
+                                <a className="maina" href="/mobileapps">Как продавать и покупать?</a>
+                            </li>
+                            <li>
+                                <a className="maina" href="/mobileapps">Правила безопасности</a>
+                            </li>
+                            <li>
+                                <a className="maina" href="/mobileapps">Карта сайта</a>
+                            </li>
+                            <li>
+                                 <a className="maina" href="/mobileapps">Карта регионов</a>
+                            </li>
+                            <li>
+                                <a className="maina" href="/mobileapps">Карьера в OLX</a>
+                            </li>
+                            <li>
+                                <a className="maina" href="/mobileapps">Обратная связь</a>
+                            </li>
+                        </ul>
                     </div>
                     <div className="col-md-4 col-sm-4">
                         <div className="imgdex">

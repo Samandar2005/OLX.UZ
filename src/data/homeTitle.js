@@ -15,7 +15,7 @@ const categories = [
       icon: "https://categories.olxcdn.com/assets/categories/olxuz/transport-3-2x.png",
       backColor: "rgb(35, 229, 219)",
       title: "Транспорт",
-      to: "transport"
+      to: "detskiy-mir"
   },
   {
       icon: "https://categories.olxcdn.com/assets/categories/olxuz/rabota-6-2x.png",

@@ -1,4 +1,4 @@
-import "./Category.css"
+import "./Home2.css"
 import React from 'react'
 import Container from "../../containers/Container";
 import datas from "../../data";
